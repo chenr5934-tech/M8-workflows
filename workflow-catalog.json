@@ -234,7 +234,7 @@
     },
     {
       "id": "workflow-ai-minimax-h3-iaeabq",
-      "name": "无AI的minimax-h3工作流",
+      "name": "No-AI-tager-minimax-h3-workflow",
       "category": "workflow",
       "summary": "",
       "description": "",
@@ -332,7 +332,7 @@
             }
           ],
           "models": [],
-          "repository_path": "workflows/workflow/无AI的minimax-h3工作流/versions/v1.0"
+          "repository_path": "workflows/workflow/No-AI-tager-minimax-h3-workflow/versions/v1.0"
         },
         {
           "version": "1.1",
@@ -439,10 +439,10 @@
             }
           ],
           "models": [],
-          "repository_path": "workflows/workflow/无AI的minimax-h3工作流/versions/v1.1"
+          "repository_path": "workflows/workflow/No-AI-tager-minimax-h3-workflow/versions/v1.1"
         }
       ],
-      "repository_path": "workflows/workflow/无AI的minimax-h3工作流"
+      "repository_path": "workflows/workflow/No-AI-tager-minimax-h3-workflow"
     }
   ]
 }
