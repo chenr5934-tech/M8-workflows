@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "workflow-no-ai-tager-minimax-h3-workflow-jg306h",
+  "name": "No-AI-tager-minimax-h3-workflow",
+  "category": "workflow",
+  "summary": "",
+  "description": "",
+  "tags": [],
+  "archived": false,
+  "cover": {
+    "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-no-ai-tager-minimax-h3-workflow-jg306h-v1.0/workflow-no-ai-tager-minimax-h3-workflow-jg306h-v1.0-cover.png",
+    "sha256": "df0ea6395465f71f5baade2f4d678d688fe972d547eec1912d4da8bfe2e7d235"
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "published_at": "2026-08-16T14:56:39.471000Z",
+      "release_tag": "workflow-no-ai-tager-minimax-h3-workflow-jg306h-v1.0",
+      "changelog": "内核需要更新，否则请删除model-attention-backen节点，删除不影响使用。根据自己需求开启/关闭加速节点，不要盲目安装，否则可能造成启动器版本与加速工具不兼容，导致崩溃。需要AI反推的可以自行添加修改本工作流。我无法涵盖所有缺失节点，如若在manager无法补全，请去edge或google浏览器搜索github上同名的节点包自行安装。",
+      "comfyui": {
+        "minimum": "0.33.1",
+        "maximum": "0.33.1"
+      },
+      "package": {
+        "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-no-ai-tager-minimax-h3-workflow-jg306h-v1.0/No-AI-tager-minimax-h3-workflow-v1.0.zip",
+        "size": 1439354,
+        "sha256": "600b659ba59e52728fcd64a4d65c9827b544c93abddf4772fe5b2e0bfeb35b2e"
+      },
+      "preview": {
+        "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-no-ai-tager-minimax-h3-workflow-jg306h-v1.0/workflow-no-ai-tager-minimax-h3-workflow-jg306h-v1.0-cover.png",
+        "sha256": "df0ea6395465f71f5baade2f4d678d688fe972d547eec1912d4da8bfe2e7d235"
+      },
+      "custom_nodes": [
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Danbooru-Gallery",
+          "version": null,
+          "commit": "663897c74d5aabf4437ae31381c16328472dc8f5",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Easy-Use",
+          "version": null,
+          "commit": "4de1ab3b66e48da916b6f263bacd001df53a2720",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/yolain/ComfyUI-Easy-Use"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-Impact-Pack",
+          "version": null,
+          "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-KJNodes",
+          "version": null,
+          "commit": "3f20054214fec9f9234fd3841ae6f1e4287948f6",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Lora-Manager",
+          "version": null,
+          "commit": "d38a3d091db24dd471980177f481c1c9b8ad3527",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI_sol-attn_Blackwell",
+          "version": null,
+          "commit": "a8a9584e1ed700f2ce3b7569048cab0071bbf58a",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/KingGore/ComfyUI_sol-attn_Blackwell"
+        },
+        {
+          "registry_id": null,
+          "name": "rgthree-comfy",
+          "version": null,
+          "commit": "6b76ee6f2c5a007710b5a16f97c94330d6ecc871",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/rgthree/rgthree-comfy"
+        },
+        {
+          "registry_id": null,
+          "name": "WeiLin-Comfyui-Tools",
+          "version": null,
+          "commit": "efd923795d27e59da1d7a43e453ca95b07e684f9",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/weilin9999/WeiLin-Comfyui-Tools"
+        }
+      ],
+      "inputs": [
+        {
+          "source": "13-05-58-840_00001_no_metadata.png",
+          "archive": "inputs/5bf480b2504a-13-05-58-840_00001_no_metadata.png",
+          "size": 956024,
+          "sha256": "5bf480b2504a2fa1d5f898d15b30666005eb57038873bebde289bad81782d6f0",
+          "node_ids": [
+            "357",
+            "369"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/workflow/No-AI-tager-minimax-h3-workflow/versions/v1.0"
+    }
+  ],
+  "repository_path": "workflows/workflow/No-AI-tager-minimax-h3-workflow"
+}
