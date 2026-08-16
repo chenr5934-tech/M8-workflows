@@ -6,7 +6,7 @@
   "summary": "",
   "description": "",
   "tags": [],
-  "archived": false,
+  "archived": true,
   "cover": {
     "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-ai-minimax-h3-iaeabq-v1.1/workflow-ai-minimax-h3-iaeabq-v1.1-cover.png",
     "sha256": "df0ea6395465f71f5baade2f4d678d688fe972d547eec1912d4da8bfe2e7d235"
