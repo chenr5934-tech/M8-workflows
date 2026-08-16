@@ -8,7 +8,7 @@
   "workflows": [
     {
       "id": "workflow-aaalice-workflow-v1-0-d-1mdmy9n",
-      "name": "Aaalice_Workflow-v1.0-适配旧版D站节点改版",
+      "name": "Aaalice_Workflow-v1.0-suit-for-danbooru-gallery",
       "category": "workflow",
       "summary": "",
       "description": "",
@@ -227,10 +227,10 @@
             }
           ],
           "models": [],
-          "repository_path": "workflows/workflow/Aaalice_Workflow-v1.0-适配旧版D站节点改版/versions/v1.0"
+          "repository_path": "workflows/workflow/Aaalice_Workflow-v1.0-suit-for-danbooru-gallery/versions/v1.0"
         }
       ],
-      "repository_path": "workflows/workflow/Aaalice_Workflow-v1.0-适配旧版D站节点改版"
+      "repository_path": "workflows/workflow/Aaalice_Workflow-v1.0-suit-for-danbooru-gallery"
     },
     {
       "id": "workflow-ai-minimax-h3-iaeabq",

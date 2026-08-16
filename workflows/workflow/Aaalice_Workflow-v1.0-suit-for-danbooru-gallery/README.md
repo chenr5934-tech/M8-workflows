@@ -1,4 +1,4 @@
-# Aaalice_Workflow-v1.0-适配旧版D站节点改版
+# Aaalice_Workflow-v1.0-suit-for-danbooru-gallery
 
 类别：workflow
 
