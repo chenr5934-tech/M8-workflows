@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "workflow_id": "workflow-m8-workflow-qf1lu0",
+  "name": "m8-workflow",
+  "version": "1.0",
+  "filename_separator": "-",
+  "custom_nodes": [
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Anima-2.9B-loraPatch",
+      "version": null,
+      "commit": "045f240210b52037e6dd3d8328d776463fe54b96",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/sparklingcoffee777/ComfyUI-Anima-2.9B-loraPatch"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Autocomplete-Aaalice",
+      "version": null,
+      "commit": "2d9507b533f30f63329d7bdf539162a10243bf74",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Danbooru-Gallery",
+      "version": null,
+      "commit": "663897c74d5aabf4437ae31381c16328472dc8f5",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Easy-Use",
+      "version": null,
+      "commit": "4de1ab3b66e48da916b6f263bacd001df53a2720",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/yolain/ComfyUI-Easy-Use"
+    },
+    {
+      "registry_id": null,
+      "name": "comfyui-Impact-Pack",
+      "version": null,
+      "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Inpaint-CropAndStitch",
+      "version": null,
+      "commit": "2dfaf6c9689f16315a428ce3df06983b22a163c0",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+    },
+    {
+      "registry_id": null,
+      "name": "comfyui-KJNodes",
+      "version": null,
+      "commit": "3f20054214fec9f9234fd3841ae6f1e4287948f6",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Lora-Manager",
+      "version": null,
+      "commit": "4a6042d0b4d07b6c2ab34f3896f75d5ceff17837",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-NVIDIA-RTX-VSR-Pro",
+      "version": null,
+      "commit": "49733df7a02446cf1c1fac4af6f6181682522303",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/whmc76/ComfyUI-NVIDIA-RTX-VSR-Pro"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-WD-Timm-Tagger",
+      "version": null,
+      "commit": "db10c8dc94143c3a75782f4e3e5d29c943ed673b",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+    },
+    {
+      "registry_id": null,
+      "name": "LanPaint",
+      "version": null,
+      "commit": "32cf848e93971da380d868936e007f5611218bee",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/scraed/LanPaint"
+    },
+    {
+      "registry_id": null,
+      "name": "rgthree-comfy",
+      "version": null,
+      "commit": "6b76ee6f2c5a007710b5a16f97c94330d6ecc871",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/rgthree/rgthree-comfy"
+    },
+    {
+      "registry_id": null,
+      "name": "WeiLin-Comfyui-Tools",
+      "version": null,
+      "commit": "efd923795d27e59da1d7a43e453ca95b07e684f9",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/weilin9999/WeiLin-Comfyui-Tools"
+    }
+  ],
+  "models": [],
+  "inputs": [
+    {
+      "source": "M8-example.png",
+      "archive": "inputs/df0ea6395465-M8-example.png",
+      "sha256": "df0ea6395465f71f5baade2f4d678d688fe972d547eec1912d4da8bfe2e7d235",
+      "size": 464258,
+      "node_ids": [
+        "1266",
+        "1270",
+        "1340",
+        "1440",
+        "1462",
+        "6984",
+        "7043",
+        "7085",
+        "7088",
+        "7110",
+        "7114",
+        "7120",
+        "7125",
+        "7130",
+        "7146",
+        "7150",
+        "7151",
+        "7152",
+        "7154",
+        "7156",
+        "7157",
+        "7159",
+        "7160",
+        "835",
+        "872",
+        "878",
+        "893",
+        "898"
+      ]
+    }
+  ]
+}
