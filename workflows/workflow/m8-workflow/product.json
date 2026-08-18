@@ -16,7 +16,7 @@
       "version": "1.0",
       "published_at": "2026-08-18T19:23:52.157000Z",
       "release_tag": "workflow-m8-workflow-qf1lu0-v1.0",
-      "changelog": "呕心沥血的我终于做出来了哈哈哈哈哈，困死我了。\n使用方法类似A佬工作流，简化并集成的一定功能，并做了Danbooru-gallery节点适配",
+      "changelog": "呕心沥血的我终于做出来了哈哈哈哈哈，困死我了。\n使用方法类似A佬工作流，简化并集成的一定功能，并做了Danbooru-gallery节点适配\n我去，我忘了锁定全局调参面板了，你们自己手动锁定吧",
       "comfyui": {
         "minimum": "0.33.2",
         "maximum": "0.33.2"
