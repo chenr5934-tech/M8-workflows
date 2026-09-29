@@ -6,3 +6,4 @@
 | --- | --- | --- |
 | workflow | [m8-workflow](workflow/m8-workflow/) | [v2.0](workflow/m8-workflow/versions/v2.0/workflow.json) |
 | workflow | [No-AI-tager-minimax-h3-workflow](workflow/No-AI-tager-minimax-h3-workflow/) | [v1.0](workflow/No-AI-tager-minimax-h3-workflow/versions/v1.0/workflow.json) |
+| workflow | [SDXL](workflow/SDXL/) | [v1.0](workflow/SDXL/versions/v1.0/workflow.json) |
