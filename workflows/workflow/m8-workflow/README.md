@@ -6,6 +6,7 @@
 
 | 版本 | 更新日期 | 工作流文件 | 完整安装包 |
 | --- | --- | --- | --- |
+| v2.3 | 2026-10-13 | [workflow.json](versions/v2.3/workflow.json) | [ZIP](https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.3/m8-workflow-v2.3.zip) |
 | v2.2 | 2026-10-11 | [workflow.json](versions/v2.2/workflow.json) | [ZIP](https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.2/m8-workflow-v2.2.zip) |
 | v2.1 | 2026-10-11 | [workflow.json](versions/v2.1/workflow.json) | [ZIP](https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.1/m8-workflow-v2.1.zip) |
 | v2.0 | 2026-09-24 | [workflow.json](versions/v2.0/workflow.json) | [ZIP](https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.0/m8-workflow-v2.0.zip) |
