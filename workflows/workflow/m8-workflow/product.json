@@ -8,8 +8,8 @@
   "tags": [],
   "archived": false,
   "cover": {
-    "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.3/workflow-m8-workflow-qf1lu0-v2.3-cover.png",
-    "sha256": "d4313e7cc05f8bf0be615389acfa153c74769d6348fd8d52f32e8111117995f3"
+    "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.4/workflow-m8-workflow-qf1lu0-v2.4-cover.png",
+    "sha256": "e5838ff1fcaf2d9e0c5ba0382dbbfe1d04568a2f6990f9cef27e69807bedae1f"
   },
   "versions": [
     {
@@ -3278,6 +3278,330 @@
       ],
       "models": [],
       "repository_path": "workflows/workflow/m8-workflow/versions/v2.3"
+    },
+    {
+      "version": "2.4",
+      "published_at": "2026-10-16T09:50:39.724000Z",
+      "release_tag": "workflow-m8-workflow-qf1lu0-v2.4",
+      "changelog": "更新双控制网，解决小bug，补足注释",
+      "comfyui": {
+        "minimum": "0.37.4",
+        "maximum": "0.37.4"
+      },
+      "package": {
+        "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.4/m8-workflow-v2.4.zip",
+        "size": 1805999,
+        "sha256": "2931ad1d4452a4715489800de252fb075f56dbd853f7aff2800a9cde42997653"
+      },
+      "preview": {
+        "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-m8-workflow-qf1lu0-v2.4/workflow-m8-workflow-qf1lu0-v2.4-cover.png",
+        "sha256": "e5838ff1fcaf2d9e0c5ba0382dbbfe1d04568a2f6990f9cef27e69807bedae1f"
+      },
+      "custom_nodes": [
+        {
+          "registry_id": null,
+          "name": "cg-image-filter",
+          "version": null,
+          "commit": "9fe9e1676f5287fc4edc108c6e89148ce5930f3e",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chrisgoringe/cg-image-filter"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Aaalice-Image-Picker",
+          "version": null,
+          "commit": "e31e21061e010f64ba7060c5c7035863e1a21496",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Image-Picker"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Anima-2.9B-loraPatch",
+          "version": null,
+          "commit": "045f240210b52037e6dd3d8328d776463fe54b96",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/sparklingcoffee777/ComfyUI-Anima-2.9B-loraPatch"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Anima-LLLite",
+          "version": null,
+          "commit": "b7495bd8eb876e334509976896702484ed19cdbb",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/kohya-ss/ComfyUI-Anima-LLLite"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Autocomplete-Aaalice",
+          "version": null,
+          "commit": "37cabccf9b4d799b7b53a1e2d74f2cd214fe91d0",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Danbooru-Gallery",
+          "version": null,
+          "commit": "663897c74d5aabf4437ae31381c16328472dc8f5",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Easy-Use",
+          "version": null,
+          "commit": "67afdc8204683e32549e63b7b02dc006d20441fa",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/yolain/ComfyUI-Easy-Use"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Forbidden-Vision",
+          "version": null,
+          "commit": "b474d579c7749c8046d267c75512484120626b6d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/luxdelux7/ComfyUI-Forbidden-Vision"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-Impact-Pack",
+          "version": null,
+          "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Inpaint-CropAndStitch",
+          "version": null,
+          "commit": "8584b08d851762965df898b421a39075fc5357ae",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-KJNodes",
+          "version": null,
+          "commit": "d3cfe21625e5170126ce06fbfcfe1d88108688c3",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-layerdiffuse",
+          "version": null,
+          "commit": "b4f6a9e024064a4489f774a8b91049ce0b606ea3",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/huchenlei/ComfyUI-layerdiffuse"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Lora-Manager",
+          "version": null,
+          "commit": "e05614266985852c05b4519c9264c92d23b5a66c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-M8-nodes",
+          "version": null,
+          "commit": "579f3e6923ca6f8e39ef3ab762d9f518fb56c6d7",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chenr5934-tech/ComfyUI-M8nodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-m8tags",
+          "version": null,
+          "commit": "339f69b6133c4cdbf2bbe7d5561e52f60188ff46",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chenr5934-tech/ComfyUI-m8tags"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-NVIDIA-RTX-VSR-Pro",
+          "version": null,
+          "commit": "49733df7a02446cf1c1fac4af6f6181682522303",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/whmc76/ComfyUI-NVIDIA-RTX-VSR-Pro"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-PIX_Nvidia_RTX_Deblur_Denoise",
+          "version": null,
+          "commit": "0a7d4201da30dfa8e77dbbb22b390263b3e431ce",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/PixWizardry/ComfyUI-PIX_Nvidia_RTX_Deblur_Denoise"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-WD-Timm-Tagger",
+          "version": null,
+          "commit": "0729015dbd873abbded3796c5345f6328d3aa27d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui_controlnet_aux",
+          "version": null,
+          "commit": "0cd290477128d42cdc3e76a826a402d866e8c684",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Fannovel16/comfyui_controlnet_aux"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui_queue_sidebar",
+          "version": null,
+          "commit": "bb53a258f7d507d8fa5243c5b1b5516e39f9dabc",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Zhen-Bo/comfyui_queue_sidebar"
+        },
+        {
+          "registry_id": null,
+          "name": "DLSS5-Comfyui",
+          "version": null,
+          "commit": "b00ccbbc0510abcbb8afc7d383dafa5c9b31f793",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/storyAura/DLSS5-Comfyui"
+        },
+        {
+          "registry_id": null,
+          "name": "krea2-anypaint",
+          "version": null,
+          "commit": "675be5a91eadbf8b8997b21c0e8e1848310b9571",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/alexw5702-afk/krea2-anypaint"
+        },
+        {
+          "registry_id": null,
+          "name": "KreaSeedVarianceEnhancer",
+          "version": null,
+          "commit": "1515d23a5b399a44ccd97482e1105a43937268ae",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/harukimix/KreaSeedVarianceEnhancer"
+        },
+        {
+          "registry_id": null,
+          "name": "LanPaint",
+          "version": null,
+          "commit": "649d6ea4658f212aed0063788b72e032f6005d91",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/scraed/LanPaint"
+        },
+        {
+          "registry_id": null,
+          "name": "RES4LYF",
+          "version": null,
+          "commit": "3d1d69da69ee47f7647d59e1bd0967e472fccc41",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ClownsharkBatwing/RES4LYF"
+        },
+        {
+          "registry_id": null,
+          "name": "rgthree-comfy",
+          "version": null,
+          "commit": "d7297b42f0fa78bec1c0411478f887423c249502",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/rgthree/rgthree-comfy"
+        },
+        {
+          "registry_id": null,
+          "name": "SesquiLSR",
+          "version": null,
+          "commit": "befae004248c403f38b76b9f65fd43b901ea3eaa",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/LoganBooker/SesquiLSR"
+        },
+        {
+          "registry_id": null,
+          "name": "WeiLin-Comfyui-Tools",
+          "version": null,
+          "commit": "5b0b8730193d498432e2fc43549b42edcb498c63",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/weilin9999/WeiLin-Comfyui-Tools"
+        }
+      ],
+      "inputs": [
+        {
+          "source": "M8-example.png",
+          "archive": "inputs/df0ea6395465-M8-example.png",
+          "size": 464258,
+          "sha256": "df0ea6395465f71f5baade2f4d678d688fe972d547eec1912d4da8bfe2e7d235",
+          "node_ids": [
+            "1266",
+            "1270",
+            "1340",
+            "1423",
+            "1440",
+            "1462",
+            "7085",
+            "7110",
+            "7120",
+            "7215",
+            "7404",
+            "7408",
+            "7515",
+            "7517",
+            "7519",
+            "7520",
+            "7522",
+            "7523",
+            "7524",
+            "7525",
+            "7533",
+            "7534",
+            "7535",
+            "7538",
+            "7539",
+            "7540",
+            "7591",
+            "7592",
+            "7596",
+            "7597",
+            "7603",
+            "7899",
+            "7904",
+            "7917",
+            "835",
+            "872",
+            "878",
+            "893",
+            "898"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/workflow/m8-workflow/versions/v2.4"
     }
   ],
   "repository_path": "workflows/workflow/m8-workflow"
