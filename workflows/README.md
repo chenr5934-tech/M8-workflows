@@ -5,5 +5,6 @@
 | 类别 | 工作流 | 最新版本 |
 | --- | --- | --- |
 | workflow | [m8-workflow](workflow/m8-workflow/) | [v2.4](workflow/m8-workflow/versions/v2.4/workflow.json) |
+| workflow | [MOSS-workflow-M8](workflow/MOSS-workflow-M8/) | [v1.0](workflow/MOSS-workflow-M8/versions/v1.0/workflow.json) |
 | workflow | [No-AI-tager-minimax-h3-workflow](workflow/No-AI-tager-minimax-h3-workflow/) | [v1.0](workflow/No-AI-tager-minimax-h3-workflow/versions/v1.0/workflow.json) |
 | workflow | [SDXL](workflow/SDXL/) | [v1.0](workflow/SDXL/versions/v1.0/workflow.json) |
