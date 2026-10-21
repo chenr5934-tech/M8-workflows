@@ -8,7 +8,7 @@
   "tags": [],
   "archived": false,
   "cover": {
-    "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-moss-workflow-m8-1sf6ci1-v1.0/workflow-moss-workflow-m8-1sf6ci1-v1.0-cover.png",
+    "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-moss-workflow-m8-1sf6ci1-v1.1/workflow-moss-workflow-m8-1sf6ci1-v1.1-cover.png",
     "sha256": "355ce10b93ebaec2b926b6855ae5363a89e4c2364b783a74b84f6e77a45f3aef"
   },
   "versions": [
@@ -205,6 +205,227 @@
       ],
       "models": [],
       "repository_path": "workflows/workflow/MOSS-workflow-M8/versions/v1.0"
+    },
+    {
+      "version": "1.1",
+      "published_at": "2026-10-21T02:09:34.942000Z",
+      "release_tag": "workflow-moss-workflow-m8-1sf6ci1-v1.1",
+      "changelog": "修复已知问题",
+      "comfyui": {
+        "minimum": "0.37.4",
+        "maximum": "0.37.4"
+      },
+      "package": {
+        "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-moss-workflow-m8-1sf6ci1-v1.1/MOSS-workflow-M8-v1.1.zip",
+        "size": 2357078,
+        "sha256": "01a974f5c45adc8b7367497d4815c52e5557d3a1d7d67d572ff693884fdad2cd"
+      },
+      "preview": {
+        "url": "https://github.com/chenr5934-tech/M8-workflows/releases/download/workflow-moss-workflow-m8-1sf6ci1-v1.1/workflow-moss-workflow-m8-1sf6ci1-v1.1-cover.png",
+        "sha256": "355ce10b93ebaec2b926b6855ae5363a89e4c2364b783a74b84f6e77a45f3aef"
+      },
+      "custom_nodes": [
+        {
+          "registry_id": null,
+          "name": "cg-image-filter",
+          "version": null,
+          "commit": "1602dbe2c663b9defd02e00fe6371e7c6af3ab99",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chrisgoringe/cg-image-filter"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyLiterals",
+          "version": null,
+          "commit": "bdddb08ca82d90d75d97b1d437a652e0284a32ac",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/M1kep/ComfyLiterals"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Aaalice-Image-Picker",
+          "version": null,
+          "commit": "e31e21061e010f64ba7060c5c7035863e1a21496",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Image-Picker"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Autocomplete-Aaalice",
+          "version": null,
+          "commit": "37cabccf9b4d799b7b53a1e2d74f2cd214fe91d0",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Danbooru-Gallery",
+          "version": null,
+          "commit": "663897c74d5aabf4437ae31381c16328472dc8f5",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Easy-Use",
+          "version": null,
+          "commit": "4ba22aa1ec2dd606995574d93d70c6c8a3744859",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/yolain/ComfyUI-Easy-Use"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-Impact-Pack",
+          "version": null,
+          "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-KJNodes",
+          "version": null,
+          "commit": "f20bdd5337ace70abbec147bdb68ea345d340836",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Lora-Manager",
+          "version": null,
+          "commit": "90067de6213d50036d13f29bb4869204c353412d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-M8-nodes",
+          "version": null,
+          "commit": "8b0918e646cbba2c9a080f297768b1f2f1ccac3f",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chenr5934-tech/ComfyUI-M8nodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-m8tags",
+          "version": null,
+          "commit": "339f69b6133c4cdbf2bbe7d5561e52f60188ff46",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chenr5934-tech/ComfyUI-m8tags"
+        },
+        {
+          "registry_id": null,
+          "name": "Comfyui-Moss-LayoutPrompt",
+          "version": null,
+          "commit": "7ed1e0d8e23a95147ac5f3cbc25b8dc6b7c2c232",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/LinXce/Comfyui-Moss-LayoutPrompt"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-NVIDIA-RTX-VSR-Pro",
+          "version": null,
+          "commit": "49733df7a02446cf1c1fac4af6f6181682522303",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/whmc76/ComfyUI-NVIDIA-RTX-VSR-Pro"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-WD-Timm-Tagger",
+          "version": null,
+          "commit": "0729015dbd873abbded3796c5345f6328d3aa27d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+        },
+        {
+          "registry_id": null,
+          "name": "DLSS5-Comfyui",
+          "version": null,
+          "commit": "b00ccbbc0510abcbb8afc7d383dafa5c9b31f793",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/storyAura/DLSS5-Comfyui"
+        },
+        {
+          "registry_id": null,
+          "name": "ideogram4-editor",
+          "version": null,
+          "commit": "3d6b9a5029407e7d12da09d69b882eca7591045d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/SurpassHR/ideogram4-editor"
+        },
+        {
+          "registry_id": null,
+          "name": "rgthree-comfy",
+          "version": null,
+          "commit": "d7297b42f0fa78bec1c0411478f887423c249502",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/rgthree/rgthree-comfy"
+        },
+        {
+          "registry_id": null,
+          "name": "SesquiLSR",
+          "version": null,
+          "commit": "821e6db7412089f2a5c0a106c42d3c1a396b9515",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/LoganBooker/SesquiLSR"
+        },
+        {
+          "registry_id": null,
+          "name": "WeiLin-Comfyui-Tools",
+          "version": null,
+          "commit": "5b0b8730193d498432e2fc43549b42edcb498c63",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/weilin9999/WeiLin-Comfyui-Tools"
+        }
+      ],
+      "inputs": [
+        {
+          "source": "M8-example.png",
+          "archive": "inputs/df0ea6395465-M8-example.png",
+          "size": 464258,
+          "sha256": "df0ea6395465f71f5baade2f4d678d688fe972d547eec1912d4da8bfe2e7d235",
+          "node_ids": [
+            "110",
+            "1340",
+            "1423",
+            "1440",
+            "1462",
+            "7120",
+            "7215",
+            "7404",
+            "7408",
+            "7946",
+            "7949",
+            "7952",
+            "7953",
+            "7958",
+            "7959",
+            "7962",
+            "7963"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/workflow/MOSS-workflow-M8/versions/v1.1"
     }
   ],
   "repository_path": "workflows/workflow/MOSS-workflow-M8"
