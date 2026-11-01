@@ -8,3 +8,4 @@
 | workflow | [MOSS-workflow-M8](workflow/MOSS-workflow-M8/) | [v1.2](workflow/MOSS-workflow-M8/versions/v1.2/workflow.json) |
 | workflow | [No-AI-tager-minimax-h3-workflow](workflow/No-AI-tager-minimax-h3-workflow/) | [v1.0](workflow/No-AI-tager-minimax-h3-workflow/versions/v1.0/workflow.json) |
 | workflow | [SDXL](workflow/SDXL/) | [v1.0](workflow/SDXL/versions/v1.0/workflow.json) |
+| workflow | [XBHH节点版moss工作流](workflow/XBHH节点版moss工作流/) | [v1.0](workflow/XBHH节点版moss工作流/versions/v1.0/workflow.json) |
