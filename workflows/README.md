@@ -4,6 +4,7 @@
 
 | 类别 | 工作流 | 最新版本 |
 | --- | --- | --- |
+| workflow | [Anima-snapref-M8](workflow/Anima-snapref-M8/) | [v1.0](workflow/Anima-snapref-M8/versions/v1.0/workflow.json) |
 | workflow | [m8-workflow](workflow/m8-workflow/) | [v2.4](workflow/m8-workflow/versions/v2.4/workflow.json) |
 | workflow | [m8workflow-XHBB](workflow/m8workflow-XHBB/) | [v1.0](workflow/m8workflow-XHBB/versions/v1.0/workflow.json) |
 | workflow | [moss-image-XBHH](workflow/moss-image-XBHH/) | [v1.0](workflow/moss-image-XBHH/versions/v1.0/workflow.json) |
