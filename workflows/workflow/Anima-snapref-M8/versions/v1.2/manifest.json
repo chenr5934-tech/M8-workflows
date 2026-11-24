@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "workflow_id": "workflow-anima-snapref-m8-jhuh8p",
+  "name": "Anima-snapref-M8",
+  "version": "1.2",
+  "filename_separator": "-",
+  "custom_nodes": [
+    {
+      "registry_id": null,
+      "name": "ComfyUI-4A-Prompt-Manager",
+      "version": null,
+      "commit": "fd43a764a618f4b626fed818aa4bec240d4ea158",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/tsukino4a/ComfyUI-4A-Prompt-Manager"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Aaalice-Image-Picker",
+      "version": null,
+      "commit": "e31e21061e010f64ba7060c5c7035863e1a21496",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Image-Picker"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Autocomplete-Aaalice",
+      "version": null,
+      "commit": "37cabccf9b4d799b7b53a1e2d74f2cd214fe91d0",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Easy-Use",
+      "version": null,
+      "commit": "f141539dfea4e69ac742967d5380cf97d60c007d",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/yolain/ComfyUI-Easy-Use"
+    },
+    {
+      "registry_id": null,
+      "name": "comfyui-Impact-Pack",
+      "version": null,
+      "commit": "1d32710e6d36a062028746a8b050ed972b8070fb",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    },
+    {
+      "registry_id": null,
+      "name": "comfyui-KJNodes",
+      "version": null,
+      "commit": "aa2b5ea5e7f61b51f5d26d726f23c1d74e951016",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Lora-Manager",
+      "version": null,
+      "commit": "ba1ce0a671e6a709f22a99785c015bf025bcf9d6",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-M8-nodes",
+      "version": null,
+      "commit": "e04dbbc8490000785249b53622c7498732f68dc4",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/chenr5934-tech/ComfyUI-M8nodes"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-NVIDIA-RTX-VSR-Pro",
+      "version": null,
+      "commit": "49733df7a02446cf1c1fac4af6f6181682522303",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/whmc76/ComfyUI-NVIDIA-RTX-VSR-Pro"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-ppm",
+      "version": null,
+      "commit": "4826dfddfb75f8fe431a3627f407e9421418bcaf",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/pamparamm/ComfyUI-ppm"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-WD-Timm-Tagger",
+      "version": null,
+      "commit": "0729015dbd873abbded3796c5345f6328d3aa27d",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+    },
+    {
+      "registry_id": null,
+      "name": "DLSS5-Comfyui",
+      "version": null,
+      "commit": "08cf51ae37c05782e4b6a478c927b0edbe148c46",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/storyAura/DLSS5-Comfyui"
+    },
+    {
+      "registry_id": null,
+      "name": "RES4LYF",
+      "version": null,
+      "commit": "cb2c312d979b3ab4aaca97a3b70f892f4be554f4",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/ClownsharkBatwing/RES4LYF"
+    },
+    {
+      "registry_id": null,
+      "name": "rgthree-comfy",
+      "version": null,
+      "commit": "bc48c6aaeca87bedbc14245d89f9bc6be37a630e",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/rgthree/rgthree-comfy"
+    },
+    {
+      "registry_id": null,
+      "name": "WeiLin-Comfyui-Tools",
+      "version": null,
+      "commit": "5b0b8730193d498432e2fc43549b42edcb498c63",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/weilin9999/WeiLin-Comfyui-Tools"
+    }
+  ],
+  "models": [],
+  "inputs": [
+    {
+      "source": "M8-example.png",
+      "archive": "inputs/df0ea6395465-M8-example.png",
+      "sha256": "df0ea6395465f71f5baade2f4d678d688fe972d547eec1912d4da8bfe2e7d235",
+      "size": 464258,
+      "node_ids": [
+        "1266",
+        "1270",
+        "1340",
+        "1423",
+        "1440",
+        "1462",
+        "4",
+        "5",
+        "7085",
+        "7120",
+        "7404",
+        "7408",
+        "8047",
+        "8050",
+        "8053",
+        "8056",
+        "8079",
+        "8081",
+        "8082",
+        "8083",
+        "8085",
+        "8088",
+        "8089",
+        "8090",
+        "8091",
+        "8093",
+        "8123",
+        "835",
+        "872",
+        "878"
+      ]
+    }
+  ]
+}
